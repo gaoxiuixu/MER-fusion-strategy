@@ -21,9 +21,9 @@ def get_models_dict():
     Return a dictionary of base classifiers.
 
     Note:
-    - Each classifier here is expected to be used in combination with the DDPO oversampling method.
+    - Each classifier here is expected to be used in combination with the ASNR oversampling method.
     - The hyperparameters should be the optimal ones obtained from prior tuning,
-      where each classifier was trained on a DDPO-augmented (balanced) dataset.
+      where each classifier was trained on a ASNR-augmented (balanced) dataset.
     - These parameter settings aim to maximize AUC on the validation set.
     - The current instantiations use default parameters and should be replaced 
       with the tuned settings based on your specific experiment.
